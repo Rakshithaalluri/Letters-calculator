@@ -1,0 +1,137 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 100vh;
+    max-width: 100vw;
+  }
+}
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .calculator-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.letter-counting {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  .letter-counting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    order: 2;
+  }
+}
+.heading {
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
+.phrase {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .phrase {
+    font-size: 14px;
+  }
+}
+
+.input-text {
+  width: 260px;
+  border-radius: 4px;
+  background-color: transparent;
+  border-width: 1px;
+  font-size: 20px;
+  font-weight: 400;
+  height: 30px;
+  border-style: solid;
+  color: #e4e7eb;
+  border-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .input-text {
+    width: 270px;
+    height: 45px;
+  }
+}
+
+.button {
+  color: #219a6f;
+  background-color: #ffffff;
+  width: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border-radius: 15px;
+  border-width: 0px;
+  height: 70px;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 270px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    order: 1;
+  }
+}
+
+.image {
+  height: 340px;
+  width: 450px;
+}
+
+@media (max-width: 768px) {
+  .image {
+    height: 300px;
+    width: 350px;
+  }
+}
